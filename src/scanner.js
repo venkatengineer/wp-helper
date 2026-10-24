@@ -48,7 +48,8 @@ export function scanRepository(rootDir, options = {}) {
     'coverage/**',
     '.nyc_output/**',
     '.cache/**',
-    '.ai-test-fixer/**'
+    '.ai-test-fixer/**',
+    'examples/**'
   ];
   const maxFileBytes = options.maxFileBytes || 1000000;
 

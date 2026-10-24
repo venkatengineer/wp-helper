@@ -39,7 +39,8 @@ export const DEFAULT_CONFIG = {
     'coverage/**',
     '.nyc_output/**',
     '.cache/**',
-    '.ai-test-fixer/**'
+    '.ai-test-fixer/**',
+    'examples/**'
   ],
   maxFileBytes: 100000,
   maxContextTokens: 32000,
