@@ -1,0 +1,10 @@
+node_modules/
+.ai-test-fixer/
+coverage/
+dist/
+build/
+*.log
+.env
+.env.*
+.DS_Store
+*.tgz

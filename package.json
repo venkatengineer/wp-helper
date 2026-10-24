@@ -1,0 +1,48 @@
+{
+  "name": "ai-test-fixer",
+  "version": "1.0.0",
+  "description": "AI-powered test-driven code generation and automated test repair CLI and toolkit",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "ai-test-fixer": "./bin/ai-test-fixer.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./scanner": "./src/scanner.js",
+    "./test-discovery": "./src/test-discovery.js",
+    "./project-analyzer": "./src/project-analyzer.js",
+    "./context-builder": "./src/context-builder.js",
+    "./patch-validator": "./src/patch-validator.js",
+    "./patcher": "./src/patcher.js",
+    "./backup-manager": "./src/backup-manager.js",
+    "./test-runner": "./src/test-runner.js",
+    "./repair-loop": "./src/repair-loop.js",
+    "./config": "./src/config.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "ai",
+    "testing",
+    "tdd",
+    "test-runner",
+    "code-generation",
+    "auto-repair",
+    "developer-tools",
+    "openai"
+  ],
+  "author": "ai-test-fixer contributors",
+  "license": "MIT"
+}

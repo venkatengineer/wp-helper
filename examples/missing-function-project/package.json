@@ -1,0 +1,9 @@
+{
+  "name": "missing-function-project",
+  "version": "1.0.0",
+  "description": "Example repository demonstrating ai-test-fixer repairing a missing function",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/calculator.test.js"
+  }
+}
